@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ JBoss, Home of Professional Open Source.
+  ~ Copyright 2011, Red Hat, Inc., and individual contributors
+  ~ as indicated by the @author tags. See the copyright.txt file in the
+  ~ distribution for a full listing of individual contributors.
+  ~
+  ~ This is free software; you can redistribute it and/or modify it
+  ~ under the terms of the GNU Lesser General Public License as
+  ~ published by the Free Software Foundation; either version 2.1 of
+  ~ the License, or (at your option) any later version.
+  ~
+  ~ This software is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  ~ Lesser General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Lesser General Public
+  ~ License along with this software; if not, write to the Free
+  ~ Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+  ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+  -->
+
+<module xmlns="urn:jboss:module:1.1" name="org.gatein.lib">
+    <resources>
+        <resource-root path="aopalliance-1.0.jar"/>
+        <resource-root path="asm-1.5.3.jar"/>
+        <resource-root path="bcmail-jdk14-136.jar"/>
+        <resource-root path="bcprov-jdk14-136.jar"/>
+        <resource-root path="caja-r4251.jar"/>
+        <resource-root path="chromattic.api-1.1.2.jar"/>
+        <resource-root path="chromattic.apt-1.1.2.jar"/>
+        <resource-root path="chromattic.common-1.1.2.jar"/>
+        <resource-root path="chromattic.core-1.1.2.jar"/>
+        <resource-root path="chromattic.ext-1.1.2.jar"/>
+        <resource-root path="chromattic.metamodel-1.1.2.jar"/>
+        <resource-root path="chromattic.spi-1.1.2.jar"/>
+        <resource-root path="closure-compiler-r706.jar"/>
+        <resource-root path="commons-beanutils-1.8.3.jar"/>
+        <resource-root path="commons-chain-1.2.jar"/>
+        <resource-root path="commons-codec-1.4.jar"/>
+        <resource-root path="commons-dbcp-1.4.jar"/>
+        <resource-root path="commons-digester-1.8.1.jar"/>
+        <resource-root path="commons-fileupload-1.2.1.jar"/>
+        <resource-root path="commons-httpclient-3.1.jar"/>
+        <resource-root path="commons-io-1.4.jar"/>
+        <resource-root path="commons-lang-2.6.jar"/>
+        <resource-root path="commons-pool-1.5.5.jar"/>
+        <resource-root path="concurrent-1.3.4.jar"/>
+        <resource-root path="ehcache-1.6.0.jar"/>
+        <resource-root path="exo.core.component.database-2.4.6-GA.jar"/>
+        <resource-root path="exo.core.component.document-2.4.6-GA.jar"/>
+        <resource-root path="exo.core.component.ldap-2.4.6-GA.jar"/>
+        <resource-root path="exo.core.component.organization.api-2.4.6-GA.jar"/>
+        <resource-root path="exo.core.component.organization.jdbc-2.4.6-GA.jar"/>
+        <resource-root path="exo.core.component.organization.ldap-2.4.6-GA.jar"/>
+        <resource-root path="exo.core.component.security.core-2.4.6-GA.jar"/>
+        <resource-root path="exo.core.component.xml-processing-2.4.6-GA.jar"/>
+        <resource-root path="exo.jcr.component.core-1.14.6-GA.jar"/>
+        <resource-root path="exo.jcr.component.ext-1.14.6-GA.jar"/>
+        <resource-root path="exo.jcr.component.ftp-1.14.6-GA.jar"/>
+        <resource-root path="exo.jcr.component.webdav-1.14.6-GA.jar"/>
+        <resource-root path="exo.jcr.framework.command-1.14.6-GA.jar"/>
+        <resource-root path="exo.jcr.framework.web-1.14.6-GA.jar"/>
+        <resource-root path="exo.kernel.commons-2.3.6-GA.jar"/>
+        <resource-root path="exo.kernel.component.cache-2.3.6-GA.jar"/>
+        <resource-root path="exo.kernel.component.command-2.3.6-GA.jar"/>
+        <resource-root path="exo.kernel.component.common-2.3.6-GA.jar"/>
+        <resource-root path="exo.kernel.component.ext.cache.impl.jboss.v3-2.3.6-GA.jar"/>
+        <resource-root path="exo.kernel.container-2.3.6-GA-AS7-Beta03.jar"/>
+        <resource-root path="exo.portal.component.application-registry-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.common-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.identity-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.management-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.pc-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.portal-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.resources-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.scripting-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.web.api-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.web.controller-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.web.resources-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.web.security-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.component.web.server-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.gadgets-core-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.webui.core-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.webui.dashboard-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.webui.eXo-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.webui.framework-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.webui.portal-3.2.0-GA.jar"/>
+        <resource-root path="exo.portal.webui.portlet-3.2.0-GA.jar"/>
+        <resource-root path="exo.ws.commons-2.2.6-GA.jar"/>
+        <resource-root path="exo.ws.frameworks.json-2.2.6-GA.jar"/>
+        <resource-root path="exo.ws.frameworks.servlet-2.2.6-GA.jar"/>
+        <resource-root path="exo.ws.rest.core-2.2.6-GA.jar"/>
+        <resource-root path="exo.ws.rest.ext-2.2.6-GA.jar"/>
+        <resource-root path="filters-2.0.235.jar"/>
+        <resource-root path="gatein-management-api-1.0.1-GA.jar"/>
+        <resource-root path="gatein-management-spi-1.0.1-GA.jar"/>
+        <resource-root path="gatein-management-core-1.0.1-GA.jar"/>
+        <resource-root path="gatein-management-rest-1.0.1-GA.jar"/>
+        <resource-root path="groovy-all-1.7.6.jar"/>
+        <resource-root path="guava-r09.jar"/>
+        <resource-root path="guice-2.0.jar"/>
+        <resource-root path="guice-jmx-2.0.jar"/>
+        <resource-root path="guice-multibindings-2.0.jar"/>
+        <resource-root path="howl-logger-0.1.11.jar"/>
+        <resource-root path="htmlparser-1.6.jar"/>
+        <resource-root path="icu4j-3.8.jar"/>
+        <resource-root path="jbosscache-core-3.2.6.GA.jar"/>
+        <resource-root path="jdom-1.0.jar"/>
+        <resource-root path="jgroups-2.11.1.Final.jar"/>
+        <resource-root path="jibx-bind-1.2.2.jar"/>
+        <resource-root path="jibx-run-1.2.2.jar"/>
+        <resource-root path="joda-time-1.6.jar"/>
+        <resource-root path="js-1.7R2.jar"/>
+        <resource-root path="jsecurity-0.9.0.jar"/>
+        <resource-root path="json_simple-r1.jar"/>
+        <resource-root path="json-20070829.jar"/>
+        <resource-root path="juel-impl-2.2.3.jar"/>
+        <resource-root path="lucene-core-2.9.4.jar"/>
+        <resource-root path="lucene-memory-2.9.4.jar"/>
+        <resource-root path="lucene-spellchecker-2.9.4.jar"/>
+        <resource-root path="mime-util-2.1.3.jar"/>
+        <resource-root path="mop-api-1.1.1-GA.jar"/>
+        <resource-root path="mop-core-1.1.1-GA.jar"/>
+        <resource-root path="mop-spi-1.1.1-GA.jar"/>
+        <resource-root path="nekohtml-1.9.14.jar"/>
+        <resource-root path="oauth-20100527.jar"/>
+        <resource-root path="pc-bridge-2.3.1-Beta02.jar"/>
+        <resource-root path="pc-controller-2.3.1-Beta02.jar"/>
+        <resource-root path="pc-federation-2.3.1-Beta02.jar"/>
+        <resource-root path="pdfbox-1.4.0.jar"/>
+        <resource-root path="picketlink-idm-api-1.3.1.CR01.jar"/>
+        <resource-root path="picketlink-idm-cache-1.3.1.CR01.jar"/>
+        <resource-root path="picketlink-idm-common-1.3.1.CR01.jar"/>
+        <resource-root path="picketlink-idm-core-1.3.1.CR01.jar"/>
+        <resource-root path="picketlink-idm-hibernate-1.3.1.CR01.jar"/>
+        <resource-root path="picketlink-idm-ldap-1.3.1.CR01.jar"/>
+        <resource-root path="picketlink-idm-spi-1.3.1.CR01.jar"/>
+        <resource-root path="picocontainer-1.1.jar"/>
+        <resource-root path="poi-3.6.jar"/>
+        <resource-root path="poi-ooxml-3.6.jar"/>
+        <resource-root path="poi-scratchpad-3.6.jar"/>
+        <resource-root path="portals-bridges-common-1.0.4.jar"/>
+        <resource-root path="reflext.api-1.1.0.jar"/>
+        <resource-root path="reflext.core-1.1.0.jar"/>
+        <resource-root path="reflext.jlr-1.1.0.jar"/>
+        <resource-root path="reflext.spi-1.1.0.jar"/>
+        <resource-root path="rome-1.0.jar"/>
+        <resource-root path="sanselan-0.97-incubator.jar"/>
+        <resource-root path="shindig-common-2.0.2-CP01.jar"/>
+        <resource-root path="shindig-features-2.0.2-CP01.jar"/>
+        <resource-root path="shindig-gadgets-2.0.2-CP01.jar"/>
+        <resource-root path="shindig-social-api-2.0.2-CP01.jar"/>
+        <resource-root path="simplecaptcha-1.1.1-GA-Patch01.jar"/>
+        <resource-root path="tika-core-0.7.jar"/>
+        <resource-root path="tika-parsers-0.7.jar"/>
+        <resource-root path="ws-commons-util-1.0.1.jar"/>
+        <resource-root path="xapool-1.5.0.jar"/>
+        <resource-root path="xmlbeans-2.3.0.jar"/>
+        <resource-root path="xpp3-1.1.4c.jar"/>
+        <resource-root path="xstream-1.3.1.jar"/>
+    </resources>
+    <dependencies>
+
+        <module name="javax.api"/>
+
+        <system export="true">
+            <paths>
+                <path name="sun/misc"/>
+            </paths>
+        </system>
+
+        <module name="org.apache.xerces" services="export" export="true"/>
+        <module name="com.sun.xml.bind" services="export" export="true" />
+        <module name="javax.xml.bind.api" />
+        <module name="org.dom4j" />
+
+        <module name="javax.jcr.api" />
+        <module name="javax.portlet.api" export="true"/>
+        <module name="javax.servlet.api" />
+        <module name="javax.servlet.jsp.api" />
+        <module name="javax.ws.rs.api" />
+        <module name="org.gatein.common" />
+        <module name="org.apache.commons.logging" />
+        <module name="org.apache.commons.collections" />
+        <module name="org.apache.httpcomponents" />
+        <module name="org.gatein.naming" export="true"/>
+        <module name="org.gatein.pc" />
+        <module name="org.gatein.wci" export="true"/>
+        <module name="org.hibernate" slot="gatein" />
+        <module name="org.javassist"/>
+        <module name="org.slf4j" slot="gatein" />
+        <module name="org.staxnav" />
+
+        <module name="org.jboss.threads"/>
+        <module name="org.jboss.logging"/>
+
+        <module name="org.hsqldb" />
+        <module name="org.jboss.common-core" />
+
+        <module name="javax.inject.api" />
+
+        <module name="javax.resource.api" />
+        <module name="javax.transaction.api" />
+        <module name="org.jboss.jts" />
+
+        <module name="javax.annotation.api"/>
+        <module name="org.jboss.msc"/>
+    </dependencies>
+</module>
