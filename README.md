@@ -11,7 +11,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbossas-7.0 application
 
-    rhc app create -a portal -t jbossas-7.0 --from-code git://github.com/eschabell/openshift-portal.git
+    rhc app create -a portal -t jbossas-7 --from-code git://github.com/eschabell/openshift-portal.git
     
 Issue the following command to determine your USERID
  
