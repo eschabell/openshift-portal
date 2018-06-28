@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/openshift-portal)
+
+
 GateIn portal on OpenShift Express
 ============================================
 Installing the GateIn project on OpenShift was never easier!
